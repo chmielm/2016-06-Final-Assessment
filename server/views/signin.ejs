@@ -1,0 +1,25 @@
+<h2>Login</h2>
+<p>
+<a id="GoogleLogin" href=<%- googleurl %>>Login using Google account</a>
+</p>
+<form action="/login" method="post">
+    <br>
+    <table>
+      <tr>
+        <td><label for="username">Username:</label></td>
+        <td><input id="username" type="text" name="username" placeholder="... to do"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label>
+        <td><input id="password" type="password" name="password" placeholder="... to do"></td>
+      </tr>
+    </table>
+    <br>
+    <div>
+      <input type="submit" value="Login">
+    </div>
+    <br>
+</form>
+<p>
+  <a href="/api/users/signup">Create an Account</a>
+</p>

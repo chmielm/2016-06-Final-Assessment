@@ -1,0 +1,25 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 25px;
+  background-color:rgb(240, 240, 150);
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: 121212;
+}
+form{
+  margin: 0x 25px 0px 25px;
+  background-color:rgb(240, 240, 120);
+}
+h1 {
+  color: red;
+}
+.element-description {
+  padding: 0px 40px;
+  font: bold 24px;
+}
+.bar .barNavi .file-name .save .import {
+  padding: 25x 25px 25px 25px;
+}
